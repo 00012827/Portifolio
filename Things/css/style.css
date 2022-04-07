@@ -362,6 +362,7 @@ img {
     background-color: var(--f-color);
     color: #FFF;
     padding: 1rem;
+    margin-left: 10px;
     border-radius: .5rem;
     font-weight: var(--font-medium);
 }
@@ -530,10 +531,11 @@ img {
 .skills__js{
     width: 70%;
 }
-.skills__juery{
+.skills__vuejs{
     width: 60%;
 
 }
+
 .skills__sql{
     width: 70%;
 
@@ -786,6 +788,7 @@ img {
 
 .swiper-button-prev{
     left: -.5rem;
+  
 
 }
 
@@ -804,11 +807,17 @@ img {
 .swiper-button-next,
 .swiper-pagination-bullet{
     outline: none;
+    position: relative;
+    right: 25px;
+    top: 15px;
+    
+   
+    
 }
 
 .project{
     text-align: center;
-}
+}   
 
 .project_bg{
     background-color: var(--f-color-sec);
@@ -889,6 +898,7 @@ img {
 
 .footer_container{
      row-gap: 3.5rem;
+     
 }
 .footer_bg{
     background-color: var(--f-color-sec);
@@ -945,6 +955,8 @@ img {
 .footer_socials{
     color: #FFF;
 }
+
+
 
 
 .scrollup{
